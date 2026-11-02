@@ -1,25 +1,25 @@
 class Understudy < Formula
   desc "A drop-in, CPU-only proxy for System One decision models that learns per-question understudents from the lead's answers"
   homepage "https://github.com/endgame-labs/understudy"
-  version "0.1.0-preview.1"
+  version "0.1.0-preview.2"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/endgame-labs/understudy/releases/download/v0.1.0-preview.1/understudy-aarch64-apple-darwin.tar.xz"
-      sha256 "6dc56a0ada0b539ddc3958108194169fbb85fe45af67e23587dbe4349bd69730"
+      url "https://github.com/endgame-labs/understudy/releases/download/v0.1.0-preview.2/understudy-aarch64-apple-darwin.tar.xz"
+      sha256 "d7425ea862f80977ddc75028161582d92ee222d5e518fb7b031809c42c980de2"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/endgame-labs/understudy/releases/download/v0.1.0-preview.1/understudy-x86_64-apple-darwin.tar.xz"
-      sha256 "8facc404068c71af4a8e006439101c3c23717d1849fa75867b6ec0e668669869"
+      url "https://github.com/endgame-labs/understudy/releases/download/v0.1.0-preview.2/understudy-x86_64-apple-darwin.tar.xz"
+      sha256 "d7818a1d25da602ed4b456e5178157987552d6114fab4b8bda0f2e8b4cc0abf4"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/endgame-labs/understudy/releases/download/v0.1.0-preview.1/understudy-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "1e8e1341547de21886a47dca814c5f830a06983db9271a17caaa6923af791ff3"
+      url "https://github.com/endgame-labs/understudy/releases/download/v0.1.0-preview.2/understudy-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "014d96d147113cad37decaf2d2d15e3f5183f78e98efa6f3138a8f71613eec43"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/endgame-labs/understudy/releases/download/v0.1.0-preview.1/understudy-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "610f81041ca499b076817f07a815a86d7b019290c2ccf5d5ae0afea078a46c60"
+      url "https://github.com/endgame-labs/understudy/releases/download/v0.1.0-preview.2/understudy-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "4185e706b9eb60a1bab16e7af17a4282d200a3aba3f913d7c3f5cb1bfef6bee2"
     end
   end
   license "MIT"
